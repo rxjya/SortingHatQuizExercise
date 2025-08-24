@@ -40,3 +40,9 @@ elif answerq3==4:
   Gryffindor= Gryffindor+4
 else:
   print("Wrong input.")
+
+# printing final scores for each house
+print(Gryffindor)
+print(Hufflepuff)
+print(Ravenclaw)
+print(Slytherin)
