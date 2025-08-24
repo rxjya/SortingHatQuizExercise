@@ -48,3 +48,14 @@ print("Gryffindor: ", Gryffindor)
 print("Hufflepuff: ", Hufflepuff )
 print("Ravenclaw: ", Ravenclaw)
 print("Slytherin: ", Slytherin)
+
+# printing out the house with the most points using max() function
+most_points =  max(Gryffindor, Hufflepuff, Ravenclaw, Slytherin)
+if Gryffindor == most_points:
+  print("Gryffindor!")
+elif Hufflepuff == most_points:
+  print("Hufflepuff!")
+elif Ravenclaw == most_points:
+  print("Ravenclaw!")
+else:
+  print("Slytherin!")
