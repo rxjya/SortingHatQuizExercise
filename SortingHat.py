@@ -1,4 +1,4 @@
-# Houses
+# houses
 Gryffindor = 0
 Ravenclaw = 0
 Hufflepuff = 0
@@ -25,5 +25,18 @@ elif answerq2==3:
   Ravenclaw= Ravenclaw+2
 elif answerq2==4:
   Gryffindor= Gryffindor+2
+else:
+  print("Wrong input.")
+
+# if statements for q3
+answerq3 = int(input(" Q3) Which kind of instrument most pleases your ear? 1) The violin 2) The trumpet 3) The piano 4) The drum - Enter your answer (1-4): "  ))
+if answerq3==1:
+  Slytherin= Slytherin+4
+elif answerq3==2:
+  Hufflepuff= Hufflepuff+4
+elif answerq3==3:
+  Ravenclaw= Ravenclaw+4
+elif answerq3==4:
+  Gryffindor= Gryffindor+4
 else:
   print("Wrong input.")
